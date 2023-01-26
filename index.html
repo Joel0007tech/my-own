@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my profile</title>
+    <link rel="stylesheet" href="projectfolio.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav-bar">
+          <img
+            src="wix mockups.jpg"
+            height="100px"
+            width="200px"
+            class="img-nav"
+          />
+          <a href="" target="_parent" id="first-page">Home</a>
+          <a href="about.html" target="_blank" id="second-page">Know Me</a>
+          <a href="service.html" target="_blank" id="third-page">My Service</a>
+          <a href="contact.html" target="_blank" id="fourth-page">Reach Out</a>
+          <a href="works.html" target="_blank" id="fifth-page"
+            >Previous Works</a
+          >
+        </nav>
+      </header>
+      <section id="card">
+        <p class="heading">WELCOME ON BOARD.</p>
+        <p
+          style="
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 23px;
+            color: white;
+            text-align: center;
+          "
+        >
+          Get ready to explore 🚀<br />
+          And get the detailed information about a Front-end website developer
+          👨🏽‍💻.
+        </p>
+        <div class="btn-view">
+          <a href="" class="first-btn">Let's Go</a>
+          <a href="" class="second-btn">Learn More</a>
+        </div>
+      </section>
+      <!-- For mobile view -->
+      <div id="mobile-view">
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="mobile-nav">
+            <a href="about.html">Know Me</a>
+            <a href="service.html">My Services</a>
+            <a href="contact.html">Reach Out</a>
+            <a href="works.html">Previous Works</a>
+          </div>
+        </div>
+        <div class="button-nav">
+          <img
+            src="wix mockups.jpg"
+            height="100px"
+            width="200px"
+            class="img-nav"
+          />
+          <button class="openbtn" onclick="openNav()">⫘</button>
+        </div>
+        <p class="welcome-mobile">WELCOME ON BOARD.</p>
+        <p class="welcome-paragraph-mobile">
+          Get ready to explore 🚀<br />
+          And get the detailed information about a Front-end website developer
+          👨🏽‍💻.
+        </p>
+        <div class="btn-mobile">
+          <a href="" class="first-btn-mobile">Let's Go</a>
+          <a href="" class="second-btn-mobile">Learn More</a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="/portfolio.js"></script>
+</html>
